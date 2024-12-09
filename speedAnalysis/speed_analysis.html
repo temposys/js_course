@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Анализ теста скорости</title>
+</head>
+<body>
+<h1>Анализ скорости печати</h1>
+
+<label for="inputText">Напечатайте следующий текст:</label><br>
+<textarea id="inputText"  cols="50" rows="5" readonly placeholder="Приготовьтесь к печати..."></textarea><br>
+
+<label for="userInput">Ваш ввод:</label><br>
+<textarea id="userInput"  cols="50" rows="5" placeholder="Начните печатать, когда будете готовы"></textarea><br>
+<button onclick="startTest()">Начать тест</button>
+<button onclick="endTest()" id="btn">Завершить тест</button>
+<div id="output"></div>
+<script src="./speed_analysis.js"></script>
+</body>
+</html>
